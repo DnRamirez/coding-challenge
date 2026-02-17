@@ -1,0 +1,32 @@
+"store","upc_plu","description","unit_size","sale_time","sale_time_zone","price_type","price_priority","unit_price","units_sold","total_sale"
+"JA01      ","702345678901  ","Spring Mix Salad 5oz          ","5oz",2026-01-08 10:15:23.0,"US/Eastern","REG","n/a",4.99,2.000,9.9800
+"JA02      ","704567890123  ","organic bananas               ","lb",2026-01-08 10:22:45.0,"US/Eastern","REG","n/a",0.69,3.250,2.2400
+"JA01      ","705678901234  ","Red Bell Peppers              ","ea",2026-01-08 10:35:12.0,"US/Eastern","AD","35",2.49,3.000,7.4700
+"JA03      ","709012345678  ","Avocados Large                ","ea",2026-01-08 11:05:33.0,"US/Eastern","TPR","99",2.49,4.000,9.9600
+"JA01      ","704567890124  ","Gala Apples                   ","ea",2026-01-08 11:15:45.0,"US/Eastern","REG","n/a",1.99,5.000,9.9500
+"JA02      ","703456789012  ","Roma Tomatoes                 ","lb",2026-01-08 11:28:17.0,"US/Eastern","REG","n/a",2.99,1.850,5.5300
+"JA01      ","706789012345  ","Romaine Lettuce Hearts        ","3pk",2026-01-08 11:42:55.0,"US/Eastern","REG","n/a",4.99,1.000,4.9900
+"JA03      ","702345678902  ","Baby Spinach 5oz              ","5oz",2026-01-08 12:05:21.0,"US/Eastern","REG","n/a",4.49,3.000,13.4700
+"JA02      ","707890123456  ","Baby Carrots 1lb              ","1lb",2026-01-08 12:18:42.0,"US/Eastern","REG","n/a",3.49,2.000,6.9800
+"JA01      ","708901234567  ","Broccoli Crowns               ","lb",2026-01-08 12:33:15.0,"US/Eastern","REG","n/a",3.99,2.150,8.5800
+"JA03      ","704567890125  ","Honeycrisp Apples             ","ea",2026-01-08 13:05:44.0,"US/Eastern","REG","n/a",2.99,6.000,17.9400
+"JA01      ","703456789013  ","Cherry Tomatoes Pint          ","pint",2026-01-08 13:22:11.0,"US/Eastern","REG","n/a",4.99,1.000,4.9900
+"JA02      ","705678901235  ","Green Bell Peppers            ","ea",2026-01-08 13:45:33.0,"US/Eastern","REG","n/a",1.99,4.000,7.9600
+"JA01      ","701234567891  ","Organic Apple Juice Half Gal  ","64oz",2026-01-08 14:12:25.0,"US/Eastern","REG","n/a",3.99,1.000,3.9900
+"JA03      ","709012345679  ","Avocados Bag 4ct              ","4ct",2026-01-08 14:28:50.0,"US/Eastern","REG","n/a",6.99,1.000,6.9900
+"JA02      ","704567890123  ","organic bananas               ","lb",2026-01-08 14:45:17.0,"US/Eastern","REG","n/a",0.69,4.750,3.2800
+"JA01      ","708901234568  ","Cauliflower Head              ","ea",2026-01-08 15:05:42.0,"US/Eastern","REG","n/a",4.49,1.000,4.4900
+"JA03      ","702345678903  ","Arugula Salad 5oz             ","5oz",2026-01-08 15:22:15.0,"US/Eastern","REG","n/a",5.49,2.000,10.9800
+"JA02      ","705678901236  ","Yellow Bell Peppers           ","ea",2026-01-08 15:38:44.0,"US/Eastern","REG","n/a",2.29,2.000,4.5800
+"JA01      ","706789012346  ","Iceberg Lettuce               ","ea",2026-01-08 16:05:21.0,"US/Eastern","REG","n/a",2.49,1.000,2.4900
+"JA03      ","704567890123  ","organic bananas               ","lb",2026-01-08 16:22:45.0,"US/Eastern","REG","n/a",0.69,5.250,3.6200
+"JA02      ","707890123457  ","Organic Carrots Bunch         ","bunch",2026-01-08 16:45:12.0,"US/Eastern","REG","n/a",2.99,1.000,2.9900
+"JA01      ","703456789014  ","Beefsteak Tomatoes            ","lb",2026-01-08 17:05:33.0,"US/Eastern","REG","n/a",3.49,2.180,7.6100
+"JA03      ","709012345678  ","Avocados Large                ","ea",2026-01-08 17:22:55.0,"US/Eastern","TPR","99",2.49,3.000,7.4700
+"JA02      ","701234567892  ","Organic Apple Juice Quart     ","32oz",2026-01-08 17:45:21.0,"US/Eastern","REG","n/a",2.49,2.000,4.9800
+"JA01      ","704567890124  ","Gala Apples                   ","ea",2026-01-08 18:05:44.0,"US/Eastern","REG","n/a",1.99,4.000,7.9600
+"JA03      ","999999999999  ","Unknown Product Code          ",,2026-01-08 18:22:11.0,"US/Eastern","REG","n/a",3.99,1.000,3.9900
+"JA02      ","704567890123  ","organic bananas               ","lb",2026-01-08 18:45:33.0,"US/Eastern","REG","n/a",0.69,2.850,1.9700
+"JA01      ","705678901234  ","Red Bell Peppers              ","ea",2026-01-08 19:05:25.0,"US/Eastern","AD","35",2.49,2.000,4.9800
+"JA03      ","702345678901  ","Spring Mix Salad 5oz          ","5oz",2026-01-08 19:22:50.0,"US/Eastern","REG","n/a",4.99,1.000,4.9900
+"JA02      ","708901234567  ","Broccoli Crowns               ","lb",2026-01-08 19:45:17.0,"US/Eastern","REG","n/a",3.99,1.750,6.9800

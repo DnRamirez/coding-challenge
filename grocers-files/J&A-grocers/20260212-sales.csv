@@ -1,0 +1,32 @@
+"store","upc_plu","description","unit_size","sale_time","sale_time_zone","price_type","price_priority","unit_price","units_sold","total_sale"
+"JA01      ","711234567890  ","Red Grapes Seedless           ","lb",2026-02-12 09:15:23.0,"US/Eastern","TPR","99",3.99,2.850,11.3700
+"JA02      ","704567890123  ","organic bananas               ","lb",2026-02-12 09:32:45.0,"US/Eastern","REG","n/a",0.69,4.750,3.2800
+"JA03      ","721234567890  ","Kale Bunch                    ","bunch",2026-02-12 09:55:12.0,"US/Eastern","REG","n/a",3.99,1.000,3.9900
+"JA01      ","723456789012  ","Asparagus Bunch               ","bunch",2026-02-12 10:15:33.0,"US/Eastern","REG","n/a",4.49,2.000,8.9800
+"JA02      ","702345678902  ","Baby Spinach 5oz              ","5oz",2026-02-12 10:35:45.0,"US/Eastern","REG","n/a",4.49,3.000,13.4700
+"JA03      ","704567890124  ","Gala Apples                   ","ea",2026-02-12 10:52:17.0,"US/Eastern","REG","n/a",1.99,8.000,15.9200
+"JA01      ","703456789012  ","Roma Tomatoes                 ","lb",2026-02-12 11:15:55.0,"US/Eastern","REG","n/a",2.99,1.950,5.8300
+"JA02      ","709012345678  ","Avocados Large                ","ea",2026-02-12 11:35:21.0,"US/Eastern","REG","n/a",2.99,6.000,17.9400
+"JA03      ","707890123456  ","Baby Carrots 1lb              ","1lb",2026-02-12 11:52:42.0,"US/Eastern","REG","n/a",3.49,2.000,6.9800
+"JA01      ","705678901234  ","Red Bell Peppers              ","ea",2026-02-12 12:15:15.0,"US/Eastern","REG","n/a",2.99,4.000,11.9600
+"JA02      ","704567890125  ","Honeycrisp Apples             ","ea",2026-02-12 12:35:44.0,"US/Eastern","REG","n/a",2.99,6.000,17.9400
+"JA03      ","708901234567  ","Broccoli Crowns               ","lb",2026-02-12 12:52:11.0,"US/Eastern","REG","n/a",3.99,2.150,8.5800
+"JA01      ","710123456789  ","Strawberries 1lb              ","1lb",2026-02-12 13:15:33.0,"US/Eastern","REG","n/a",6.99,2.000,13.9800
+"JA02      ","706789012345  ","Romaine Lettuce Hearts        ","3pk",2026-02-12 13:35:25.0,"US/Eastern","REG","n/a",4.99,1.000,4.9900
+"JA03      ","701234567891  ","Organic Apple Juice Half Gal  ","64oz",2026-02-12 13:52:50.0,"US/Eastern","REG","n/a",3.99,1.000,3.9900
+"JA01      ","704567890123  ","organic bananas               ","lb",2026-02-12 14:15:17.0,"US/Eastern","REG","n/a",0.69,5.850,4.0400
+"JA02      ","711234567890  ","Red Grapes Seedless           ","lb",2026-02-12 14:35:42.0,"US/Eastern","TPR","99",3.99,3.250,13.0000
+"JA03      ","702345678903  ","Arugula Salad 5oz             ","5oz",2026-02-12 14:52:15.0,"US/Eastern","REG","n/a",5.49,1.000,5.4900
+"JA01      ","703456789013  ","Cherry Tomatoes Pint          ","pint",2026-02-12 15:15:44.0,"US/Eastern","REG","n/a",4.99,2.000,9.9800
+"JA02      ","708901234568  ","Cauliflower Head              ","ea",2026-02-12 15:35:21.0,"US/Eastern","REG","n/a",4.49,1.000,4.4900
+"JA03      ","704567890123  ","organic bananas               ","lb",2026-02-12 15:52:45.0,"US/Eastern","REG","n/a",0.69,4.250,2.9300
+"JA01      ","721234567891  ","Collard Greens Bunch          ","bunch",2026-02-12 16:15:12.0,"US/Eastern","REG","n/a",3.49,1.000,3.4900
+"JA02      ","709012345679  ","Avocados Bag 4ct              ","4ct",2026-02-12 16:35:33.0,"US/Eastern","REG","n/a",6.99,1.000,6.9900
+"JA03      ","705678901235  ","Green Bell Peppers            ","ea",2026-02-12 16:52:55.0,"US/Eastern","REG","n/a",1.99,5.000,9.9500
+"JA01      ","723456789013  ","Green Beans                   ","lb",2026-02-12 17:15:21.0,"US/Eastern","REG","n/a",,1.500,6.7500
+"JA02      ","704567890124  ","Gala Apples                   ","ea",2026-02-12 17:35:44.0,"US/Eastern","REG","n/a",1.99,7.000,13.9300
+"JA03      ","706789012346  ","Iceberg Lettuce               ","ea",2026-02-12 17:52:11.0,"US/Eastern","REG","n/a",2.49,1.000,2.4900
+"JA01      ","702345678901  ","Spring Mix Salad 5oz          ","5oz",2026-02-12 18:15:33.0,"US/Eastern","REG","n/a",4.99,2.000,9.9800
+"JA02      ","704567890123  ","organic bananas               ","lb",2026-02-12 18:35:25.0,"US/Eastern","REG","n/a",0.69,6.150,4.2400
+"JA03      ","707890123457  ","Organic Carrots Bunch         ","bunch",2026-02-12 18:52:50.0,"US/Eastern","REG","n/a",2.99,1.000,2.9900
+"JA01      ","711234567890  ","Red Grapes Seedless           ","lb",2026-02-12 19:15:17.0,"US/Eastern","TPR","99",3.99,2.150,8.5800

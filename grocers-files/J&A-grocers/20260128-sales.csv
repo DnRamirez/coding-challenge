@@ -1,0 +1,32 @@
+"store","upc_plu","description","unit_size","sale_time","sale_time_zone","price_type","price_priority","unit_price","units_sold","total_sale"
+"JA01      ","704567890123  ","organic bananas               ","lb",2026-01-28 09:15:23.0,"US/Eastern","REG","n/a",0.69,4.150,2.8600
+"JA02      ","710123456789  ","Strawberries 1lb              ","1lb",2026-01-28 09:32:45.0,"US/Eastern","AD","35",5.99,2.000,11.9800
+"JA03      ","721234567890  ","Kale Bunch                    ","bunch",2026-01-28 09:55:12.0,"US/Eastern","REG","n/a",3.99,1.000,3.9900
+"JA01      ","702345678902  ","Baby Spinach 5oz              ","5oz",2026-01-28 10:15:33.0,"US/Eastern","REG","n/a",4.49,2.000,8.9800
+"JA02      ","704567890124  ","Gala Apples                   ","ea",2026-01-28 10:35:45.0,"US/Eastern","REG","n/a",1.99,7.000,13.9300
+"JA03      ","703456789012  ","Roma Tomatoes                 ","lb",2026-01-28 10:52:17.0,"US/Eastern","REG","n/a",2.99,2.250,6.7300
+"JA01      ","709012345678  ","Avocados Large                ","ea",2026-01-28 11:15:55.0,"US/Eastern","REG","n/a",2.99,5.000,14.9500
+"JA02      ","706789012345  ","Romaine Lettuce Hearts        ","3pk",2026-01-28 11:35:21.0,"US/Eastern","REG","n/a",4.99,1.000,4.9900
+"JA03      ","707890123456  ","Baby Carrots 1lb              ","1lb",2026-01-28 11:52:42.0,"US/Eastern","REG","n/a",3.49,3.000,10.4700
+"JA01      ","705678901234  ","Red Bell Peppers              ","ea",2026-01-28 12:15:15.0,"US/Eastern","REG","n/a",2.99,3.000,8.9700
+"JA02      ","704567890125  ","Honeycrisp Apples             ","ea",2026-01-28 12:35:44.0,"US/Eastern","REG","n/a",2.99,5.000,14.9500
+"JA03      ","708901234567  ","Broccoli Crowns               ","lb",2026-01-28 12:52:11.0,"US/Eastern","REG","n/a",3.99,1.850,7.3800
+"JA01      ","701234567891  ","Organic Apple Juice Half Gal  ","64oz",2026-01-28 13:15:33.0,"US/Eastern","REG","n/a",3.99,1.000,3.9900
+"JA02      ","705678901235  ","Green Bell Peppers            ","ea",2026-01-28 13:35:25.0,"US/Eastern","REG","n/a",1.99,3.000,5.9700
+"JA03      ","710123456789  ","Strawberries 1lb              ","1lb",2026-01-28 13:52:50.0,"US/Eastern","AD","35",5.99,1.000,5.9900
+"JA01      ","704567890123  ","organic bananas               ","lb",2026-01-28 14:15:17.0,"US/Eastern","REG","n/a",0.69,6.150,4.2400
+"JA02      ","721234567891  ","Collard Greens Bunch          ","bunch",2026-01-28 14:35:42.0,"US/Eastern","REG","n/a",3.49,1.000,3.4900
+"JA03      ","702345678903  ","Arugula Salad 5oz             ","5oz",2026-01-28 14:52:15.0,"US/Eastern","REG","n/a",5.49,2.000,10.9800
+"JA01      ","703456789013  ","Cherry Tomatoes Pint          ","pint",2026-01-28 15:15:44.0,"US/Eastern","REG","n/a",4.99,1.000,4.9900
+"JA02      ","708901234568  ","Cauliflower Head              ","ea",2026-01-28 15:35:21.0,"US/Eastern","REG","n/a",4.49,1.000,4.4900
+"JA03      ","704567890123  ","organic bananas               ","lb",2026-01-28 15:52:45.0,"US/Eastern","REG","n/a",0.69,3.750,2.5900
+"JA01      ","707890123457  ","Organic Carrots Bunch         ","bunch",2026-01-28 16:15:12.0,"US/Eastern","REG","n/a",2.99,2.000,5.9800
+"JA02      ","709012345679  ","Avocados Bag 4ct              ","4ct",2026-01-28 16:35:33.0,"US/Eastern","REG","n/a",6.99,1.000,6.9900
+"JA03      ","706789012346  ","Iceberg Lettuce               ","ea",2026-01-28 16:52:55.0,"US/Eastern","REG","n/a",2.49,1.000,2.4900
+"JA01      ","722345678901  ","Brussels Sprouts              ","lb",2026-01-28 17:15:21.0,"US/Eastern","REG","n/a",4.99,1.250,6.2400
+"JA02      ","704567890124  ","Gala Apples                   ","ea",2026-01-28 17:35:44.0,"US/Eastern","REG","n/a",1.99,6.000,11.9400
+"JA03      ","701234567892  ","Organic Apple Juice Quart     ","32oz",2026-01-28 17:52:11.0,"US/Eastern","REG","n/a",2.49,1.000,2.4900
+"JA01      ","705678901236  ","Yellow Bell Peppers           ","ea",2026-01-28 18:15:33.0,"US/Eastern","REG","n/a",2.29,2.000,4.5800
+"JA02      ","704567890123  ","organic bananas               ","lb",2026-01-28 18:35:25.0,"US/Eastern","REG","n/a",0.69,5.250,3.6200
+"JA03      ","703456789014  ","Beefsteak Tomatoes            ","lb",2026-01-28 18:52:50.0,"US/Eastern","REG","n/a",3.49,1.850,6.4600
+"JA01      ","710123456789  ","Strawberries 1lb              ","1lb",2026-01-28 19:15:17.0,"US/Eastern","AD","35",5.99,1.000,5.9900
