@@ -17,6 +17,7 @@
     <table>
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Phone</th>
@@ -24,7 +25,8 @@
         </thead>
         <tbody>
             {#each data.customers as customer} 
-                <tr> 
+                <tr>
+                    <td>{customer.id}</td> 
                     <td>{customer.name}</td>
                     <td>{customer.email}</td>
                     <td>{customer.phone}</td>
