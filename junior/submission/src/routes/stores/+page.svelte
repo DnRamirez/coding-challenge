@@ -2,7 +2,7 @@
     let { data } = $props(); 
 </script> 
 
-<h1> Stores Data</h1>
+<h1>Stores</h1>
 
 <section class="form-container">
     <form method="POST" action="?/add"> 

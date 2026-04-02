@@ -1,7 +1,7 @@
 <script>
 let { data } = $props();
 </script>
-<h1> Products Data </h1>
+<h1>Products</h1>
 
 <section class="form-container">
     <form method="POST" action="?/add"> 
@@ -105,7 +105,7 @@ let { data } = $props();
     border: 1px solid #ccc;
     border-radius: 4px;
     }  
-    
+
     .btn-danger {
         background-color: #dc3545;
     }
