@@ -1,8 +1,7 @@
 import { db } from '$lib/server/db';
-import { customers, products, stores } from '$lib/server/schema';
+import { products, stores } from '$lib/server/schema';
 import { eq } from 'drizzle-orm';
 import type { Actions, PageServerLoad } from './$types';
-import { idText } from 'typescript';
 
 export const load: PageServerLoad = async () => {
     return {
@@ -46,5 +45,19 @@ export const actions: Actions = {
             console.error('Error adding product:', error);
             return { success: false };
         }
-    } 
-}; 
+    },
+    
+    delete: async ({ request }) => {
+        const formData = await request.formData();
+        const id = parseInt(formData.get('id') as string);
+        
+        try {
+            await db.delete(products).where(eq(products.id, id));
+            return { success: true };
+            
+        } catch (error) {
+            console.error('Error deleting product:', error);
+            return { success: false };
+        }
+    }
+};

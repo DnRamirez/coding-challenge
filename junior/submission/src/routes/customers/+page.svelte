@@ -30,6 +30,12 @@
                     <td>{customer.name}</td>
                     <td>{customer.email}</td>
                     <td>{customer.phone}</td>
+                    <td>
+                        <form method="POST" action="?/delete">
+                            <input type="hidden" name="id" value={customer.id} />
+                            <button class="btn-danger" type="submit">Delete</button>
+                        </form>
+                    </td>
                 </tr> 
             {/each}
         </tbody>
@@ -85,5 +91,11 @@
     button:hover {
         background-color: #0056b3;
     }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+
 </style>
 

@@ -26,5 +26,19 @@ export const actions: Actions = {
             console.error('Error adding customer:', error);
             return { success: false };
         }
-	}
+	},
+
+    delete: async ({ request }) => {
+        const formData = await request.formData();
+        const id = parseInt(formData.get('id') as string);
+
+        try {
+            await db.delete(customers).where(eq(customers.id, id));
+            return { success: true };
+
+        } catch (error) {
+            console.error('Error deleting customer:', error);
+            return { success: false };
+        }
+    }
 }; 

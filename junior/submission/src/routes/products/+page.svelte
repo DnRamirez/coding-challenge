@@ -37,6 +37,12 @@ let { data } = $props();
                     <td>{product.description}</td>
                     <td>{product.price}</td>
                     <td>{product.store_name}</td>
+                    <td>
+                        <form method="POST" action="?/delete">
+                            <input type="hidden" name="id" value={product.id} />
+                            <button class="btn-danger" type="submit">Delete</button>
+                        </form>
+                    </td>
                 </tr> 
             {/each}
         </tbody>
@@ -99,4 +105,8 @@ let { data } = $props();
     border: 1px solid #ccc;
     border-radius: 4px;
     }  
+    
+    .btn-danger {
+        background-color: #dc3545;
+    }
 </style>

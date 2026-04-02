@@ -33,6 +33,12 @@
                     <td>{store.name}</td>
                     <td>{store.location}</td>
                     <td>{store.customer_name}</td>
+                    <td>
+                        <form method="POST" action="?/delete">
+                            <input type="hidden" name="id" value={store.id} />
+                            <button class="btn-danger" type="submit">Delete</button>
+                        </form>
+                    </td>
                 </tr> 
             {/each}
         </tbody>
@@ -94,6 +100,10 @@
         margin-right: 5px;
         border: 1px solid #ccc;
         border-radius: 4px;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
     }
 </style>
 
