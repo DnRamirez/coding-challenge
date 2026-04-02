@@ -16,9 +16,12 @@ export const load: PageServerLoad = async () => {
         .leftJoin(customers, eq(stores.customer_id, customers.id)) 
         .all(),
         // Fetch customers data for dropdown options
-        customers: db.select().from(customers).all()
-     }; 
-};
+        customers: db.select({
+            id: customers.id,
+            name: customers.name
+         }).from(customers).all()
+        }
+     };
 
 export const actions: Actions = {
     add: async ({ request }) => {

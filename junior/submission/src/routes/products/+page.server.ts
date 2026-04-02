@@ -2,6 +2,7 @@ import { db } from '$lib/server/db';
 import { customers, products, stores } from '$lib/server/schema';
 import { eq } from 'drizzle-orm';
 import type { Actions, PageServerLoad } from './$types';
+import { idText } from 'typescript';
 
 export const load: PageServerLoad = async () => {
     return {
@@ -17,9 +18,13 @@ export const load: PageServerLoad = async () => {
         .leftJoin(stores, eq(products.store_id, stores.id))
         .all(),
         // Fetch stores data for dropdown options
-        stores: db.select().from(stores).all()
-    }
-};
+        stores: db.select({
+            id: stores.id,
+            name: stores.name
+         }).from(stores).all()
+        }
+    }; 
+
 
 export const actions: Actions = {
     add: async ({ request }) => {
