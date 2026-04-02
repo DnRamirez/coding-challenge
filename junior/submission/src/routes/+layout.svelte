@@ -9,5 +9,26 @@
 	{/if}
 </nav>
 
-
+<main> 
 {@render children()}
+</main>
+
+<style> 
+	nav {
+		margin-bottom: 20px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #0070f3;
+		font-weight: bold;
+		padding: 8px 16px;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+	main {
+		padding: 0 20px;
+	}
+</style>
