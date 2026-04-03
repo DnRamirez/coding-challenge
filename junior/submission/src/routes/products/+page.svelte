@@ -19,6 +19,18 @@ let { data } = $props();
     </form>
 </section>
 
+<section>
+    <form method="GET">
+        <select name="store_id" onchange={(e) => e.currentTarget.form?.requestSubmit()}>
+            <option value="">All Stores</option>
+            {#each data.stores as store}
+                <option value={store.id} selected={data.selectedStoreId === store.id}>
+                    {store.name}
+                </option>
+            {/each}
+        </select>
+    </form>
+</section>
 
 <div class="table-container">
     <table>
@@ -35,7 +47,7 @@ let { data } = $props();
                 <tr> 
                     <td>{product.name}</td>
                     <td>{product.description}</td>
-                    <td>{product.price}</td>
+                    <td>${product.price}</td>
                     <td>{product.store_name}</td>
                     <td>
                         <form method="POST" action="?/delete">

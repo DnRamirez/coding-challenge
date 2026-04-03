@@ -3,24 +3,42 @@ import { products, stores } from '$lib/server/schema';
 import { eq } from 'drizzle-orm';
 import type { Actions, PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async () => {
-    return {
-        // Join products with stores to get store name for each product
-        products: db.select({
+export const load: PageServerLoad = async ({ url }) => {
+    const storeId = url.searchParams.get('store_id');
+    let productsResult; 
+
+    if (storeId) {
+        productsResult = db.select({
             id: products.id,
             name: products.name,
             description: products.description,
             price: products.price,
-            store_name: stores.name, 
+            store_name: stores.name,
         })
         .from(products)
         .leftJoin(stores, eq(products.store_id, stores.id))
-        .all(),
+        .where(eq(products.store_id, parseInt(storeId)))
+        .all();
+    } else {
+        productsResult = db.select({
+            id: products.id,
+            name: products.name,
+            description: products.description,
+            price: products.price,
+            store_name: stores.name,
+        })
+         .from(products)
+         .leftJoin(stores, eq(products.store_id, stores.id))
+         .all();
+    }
+    return {
+        products: productsResult,
         // Fetch stores data for dropdown options
         stores: db.select({
             id: stores.id,
             name: stores.name
-         }).from(stores).all()
+         }).from(stores).all(),
+        selectedStoreId: storeId ? parseInt(storeId) : null
         }
     }; 
 
