@@ -18,6 +18,19 @@
     </form>
 </section>
 
+<section>
+    <form method="GET">
+        <select name="customer_id" onchange={(e) => e.currentTarget.form?.requestSubmit()}>
+            <option value="">All Customers</option>
+            {#each data.customers as customer}
+                <option value={customer.id} selected={data.selectedCustomerId === customer.id}>
+                    {customer.name}
+                </option>
+            {/each}
+        </select>
+    </form>
+</section>
+
 <div class="table-container">
     <table>
         <thead>
@@ -44,6 +57,8 @@
         </tbody>
     </table>
 </div>
+
+
 
 <style>
     .table-container {
